@@ -1,405 +1,215 @@
-cabecalho-imagem{
-    width: 20%;
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
 }
-.cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+body {
+    background-color: var(--cor-de-fundo);
 }
-.cabecalho-lista-item{
-    display: inline-block;
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
+* {
+    margin: 0;
+    padding: 0;
 }
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+.principal {
+    background-image: url("img/Background.png");
 }
-    *{
-        margin: 0;
-        padding: 0;
+.container {
+    height: 100vh;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.principal {
+    background-image: url(“img/Background.png”);
     }
-    
-    .cabecalho {
-        background-color: #424E61;
-        color: white;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 24px 0;
+    .container__botao {
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
     }
-    
-    .cabecalho-imagem{
-        width: 20%;
+    .container {
+        height: 100vh;
+        display: grid;
     }
-    
-    .cabecalho-lista-item{
-        display: inline-block;
-        margin: 0 16px;
-        font-size: 24px;
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
-    .escola-imagem{
-        width: 25%;
+    .botao_secundario {
+        background-color: transparent;
+        border: 2px solid var(--branco-principal)
     }
-    .escola{
-        background-image: linear-gradient();
-    }
-    .escola{
-        background-image: linear-gradient(#424E61, #4EBFE9);
-    }
-    .escola{
-        background-image: linear-gradient(#424E61, #4EBFE9);
-        color: white;
-    }
-    .escola{
-        background-image: linear-gradient(#424E61, #4EBFE9);
-        color: white;
-        display: flex;
-    }
-    .escola-div-conteudo{
-        width: 35%;
-    }
-    .escola-titulo{
-        padding: 24px 0;
-    }
-    .escola{
-        background-image: linear-gradient(#424E61, #4EBFE9);
-        color: white;
-        display: flex;
-        justify-content: center;
-    }
-    .escola{
-        background-image: linear-gradient(#424E61,#16CFF8);
-        color:white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .escola{
-        background-image: linear-gradient(#424E61,#16CFF8);
-        color:white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 24px 0;
-    }
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .cabecalho {
-        background-color: #424E61;
-        color: white;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 24px 0;
-    }
-    
-    .cabecalho-imagem{
-        width: 15%;
-    }
-    
-    .cabecalho-lista-item{
-        display: inline-block;
-        margin: 0 16px;
-        font-size: 20px;
-    }
-    .escola-imagem{
-        width: 25%;
-    }
-    
-    .escola{
-        background-image: linear-gradient(#424E61,#16CFF8);
-        color:white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 24px 0;
-    }
-    
-    .escola-div-conteudo{
-        width: 35%;
-    }
-    .escola-titulo{
-        padding: 24px 0;
+    :root {
+        --branco-principal: #FFFFFF;
+        --cinza-secundario: #C0C0C0;
+        --botao-azul: #167BF7;
+        --cor-de-fundo: #00030C;
+        --fonte-principal: 'Inter';
     }
     body {
-        font-family: 'Poppins', sans-serif;
+        background-color: var(--cor-de-fundo);
+        color: var(--branco-principal);
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+        font-weight: 400;
     }
-    <section class=”estudantes”>
-    <h2 class=”estudante-titulo”>Quem são nossos estudantes</h2>
-    <img class=”estudante-imagem” src=”Marcelo.jpeg” alt=”foto do marcelo”>
-</section>
-<section class=”estudantes”>
-    <h2 class=”estudante-titulo”>Quem são nossos estudantes</h2>
-    <img class=”estudante-imagem” src=”Marcelo.jpeg” alt=”foto do marcelo”>
-    <h3 class=”estudante-nome”>Marcelo</h3>
-</section>
-.estudante-imagem{
-    width: 120px;
-}
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
-<section class="estudante">
-    <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-</section>
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-}
-.cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem{
-    width: 10%;
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 16px;
-}
-
-.escola-imagem{
-    width: 25%;
-}
-
-.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo{
-    width: 35%;
-}
-
-
-.escola-titulo{
-    padding: 24px 0;
-}
-
-.estudante{
-    padding: 24px 0;
-}
-.estudante-imagem{
-    width: 120px;
-}
-
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
-
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
-#escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-#estudante{
-    padding: 24px 0;
-}
-.cabecalho-lista-item a{
-    text-decoration: none; 
-    color: white;
-}
-<div class="estudante-todos">
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-</div>
-.estudante-todos{
-    display: grid;
-}
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-}
-<div class="estudante-todos">
-    <span></span>
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-</div>
-<a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
-<a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png"  alt="icone github"></a>
-
-<a href="https://www.linkedin.com/in/marcelopaludetto/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-
-<a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-
-.estudante-titulo{
-    text-align: center;
-    padding: 24px 0;
-}
-<footer class="rodape">
+    .container__aviso {
+        font-size: 12px;
+        color: var(--cinza-secundario);
+    }
+    .container__botao {
+        background-color: var(--botao-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+    }
+    .botao_secundario {
+        background-color: transparent;
+        border: 2px solid var(--branco-principal)
+    }
+    .container__caixa {
+        margin: 0 6em;
+    }
+    .principal {
+        background-image: url("img/Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+    }
+    .secundario__imagem {
+        width: 80%;
+    }
+    .secundario {
+        align-items: center;
+        margin: 0 10em;
+    }
+    .descricao__titulo {
+        font-weight: 700;
+        font-size: 48px;
+        color: var(--branco-principal);
+        margin-bottom: 0.1em;
+    }
+    .descricao__texto {
+        color: var(--cinza-secundario);
+    }
+  
+    .secundario__botao {
+        display: inline-block;
+        margin-top: 1em;
+    }
+    .container__descricao {
+        padding: 2em;
+    }
+    .container__botao {
+        background-color: #5CBAE6;
+        color: black;
+        display: inline-block;
+        margin-top: 1em;
+    }
+    .dispositivos__lista {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 5em 0;
+    }
+    .dispositivos {
+        text-align: center;
+    }
+    .dispositivos__titulo {
+        font-size: 48px;
+        color: var(--branco-principal);
+    }
+    .lista__item {
+        font-size: 32px;
+        color: var(--branco-principal);
+    }
+    .rodape__lista {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin-top: 1em;
+    }
+    .lista__link a{
+        text-decoration: none;
+        color: var(--branco-principal);
+        margin-left: 1em;
+    }
+    .rodape__texto {
+        margin: 1em 0;
+        color: var(--cinza-secundario);
+        font-size: 14px;
+    }
+    .rodape {
+        text-align: center;
+        margin: 5em 3em;
+    }
+    .lista__link a:hover {
+        color: var(--botao-azul);
+    }
+    .lista__link a:active {
+        color: purple;
+    }
+    :root {
+        --branco-principal: #FFFFFF;
+        --cinza-secundario: #C0C0C0;
+        --botao-azul: #167BF7;
+        --cor-de-fundo: #00030C;
+        --fonte-principal: 'Inter';
+        --botao-azul-efeito: #3c92fa;
+    }
+    .container__botao:hover {
+        background-color: var(--botao-azul-efeito);
+        color: var(--cor-de-fundo);
+    }
     
-</footer>
-<footer class="rodape">
-    <img class="rodape-imagem"src="alurastart logo.png" alt="logo da alura start">
-</footer>
-.rodape{
-    background-color: black;
-    text-align: center;
-}
-.rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-}
-.cabecalho {
-    background-color: #424E61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.cabecalho-imagem{
-    width: 10%;
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 16px;
-}
-
-.escola-imagem{
-    width: 25%;
-}
-
-.escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo{
-    width: 35%;
-}
 
 
-.escola-titulo{
-    padding: 24px 0;
-}
 
-.estudante{
-    padding: 24px 0;
-}
-.estudante-imagem{
-    width: 120px;
-}
 
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
 
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
 
-.estudante-titulo{
-    text-align: center;
-    padding: 50px 0;
-}
 
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-}
 
-.rodape{
-    background-color: black;
-    text-align: center;
-}
 
-.rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
-   
-}
-<div class="perfil">
-        <img class="imagem" src="personagem.png" alt="Foto do personagem">
-        <h3>Nome do personagem favorito</h3>
-        <a href="https://www.youtube.com/watch?v=1kh97CymN1o">Desenho onde o personagem aparece</a>
-    </div>
-    .estudantes-todos{
-        display: grid;
-        
-        }
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
